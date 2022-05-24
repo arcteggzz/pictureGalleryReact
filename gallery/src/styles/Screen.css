@@ -1,0 +1,29 @@
+.screen{
+    height: 100vh;
+    width: 70vw;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.screen img{
+    height: auto;
+    width: 250px;
+}
+
+@media  screen and (max-width:412px){
+    .screen{
+        height: 70vh;
+        width: 100vw;
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .screen img{
+        height: auto;
+        width: 250px;
+    }
+}

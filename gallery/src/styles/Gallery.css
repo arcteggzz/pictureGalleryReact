@@ -1,0 +1,36 @@
+.gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 100vh;
+}
+
+.image img{
+    width: 40px;
+    height: auto;
+    margin: 2px;
+    cursor: pointer;
+    transition: ease all 0.1s;
+}
+
+.image img:hover{
+    transform: scale(1.2);
+}
+
+@media  screen and (max-width:412px){
+    .gallery{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 20vh;
+    }
+
+    .image img{
+        width: 40px;
+        height: auto;
+        margin: 2px;
+        cursor: pointer;
+    }
+}
